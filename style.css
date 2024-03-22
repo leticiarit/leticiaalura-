@@ -14,3 +14,27 @@ body{
 margin: 0;
 padding: 0;
 }
+
+.principal{
+background-image: url("img/escola.jpeg");
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 35% 35%;
+}
+
+.container_botao{
+    background-color: var(--botao-azul);
+    border-radius: 20px;
+    padding: lem;
+    color: var(--preto-principal);
+    display: block;
+}
+.botao_segundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
