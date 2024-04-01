@@ -4,9 +4,10 @@
 --botao-azul: #4EBFE9;
 --cor-de-fundo: #383D58;
 --fonte-principal: 'Inter'
-}<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">ndo);
+var(--cor-de-fundo)
+}
+body{
+    background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
     font-size:16px;
@@ -22,6 +23,8 @@ padding: 0;
 background-image: url("img/escola.jpeg");
 background-repeat: no-repeat;
 background-size: contain;
+align-items: center;
+text-align: center;
 }
 
 .container{
@@ -33,10 +36,11 @@ background-size: contain;
 .container_botao{
     background-color: var(--botao-azul);
     border-radius: 20px;
-    padding: lem;
+    padding: 1em;
     color: var(--preto-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 .botao_segundario{
     background-color: transparent;
@@ -52,4 +56,51 @@ background-size: contain;
 }
 .conteiner--imagem{
     margin: 1em 0 2em 0;
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
 }
